@@ -1,60 +1,82 @@
 
-# 📄 Resume Analyzer
-## 📖 Overview
-
-Resume Analyzer is a web application that helps users evaluate and improve their resumes by analyzing content, skills, and overall resume quality. The system provides insights and suggestions to make resumes more effective and ATS-friendly. Inspired by modern resume analysis tools that evaluate resumes and provide feedback for job seekers.
+# 📄 AI Resume Analyzer
 
 ---
 
-## 🚀 Features
+## 🚀 Overview
 
-* 📤 Upload Resume
-* 🔍 Resume Analysis
-* 📊 Resume Evaluation
-* 💡 Improvement Suggestions
-* 📝 Skill Identification
-* 🎯 ATS-Friendly Recommendations
-* 📂 Resume Management
+AI Resume Analyzer is a modern web application that helps job seekers evaluate and improve their resumes using AI-powered feedback.
+
+Users can upload a resume, provide a target job description, and receive detailed ATS analysis, resume scoring, strengths, weaknesses, and actionable suggestions to increase their chances of landing interviews.
 
 ---
 
-## 🏗️ Tech Stack
+## ✨ Features
 
-### Backend
+* 📤 Upload Resume (PDF)
+* 🤖 AI-Powered Resume Analysis
+* 🎯 ATS Compatibility Scoring
+* 📊 Resume Quality Assessment
+* 💡 Personalized Improvement Suggestions
+* 📋 Job Description Matching
+* 🖼️ Resume Preview
+* 🔐 Secure User Authentication
+* ☁️ Cloud Storage Integration
 
-* Java
-* Spring Boot
-* Spring MVC
-* Spring Data JPA
-* Hibernate
-* Maven
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
 
-* HTML
-* CSS
-* Thymeleaf
+* React 19
+* TypeScript
+* React Router 7
+* Vite
+* Tailwind CSS
+* Zustand
 
-### Database
+### AI & Storage
 
-* MySQL
+* Puter AI
+* Puter Cloud Storage
+* Puter Key-Value Database
+
+### Utilities
+
+* PDF.js
+* React Dropzone
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-src
+app
 │
-├── controller
-├── service
-├── repository
-├── entity
-├── config
-└── resources
-    ├── templates
-    └── static
+├── components
+│   ├── ATS
+│   ├── Summary
+│   ├── Details
+│   └── FileUploader
+│
+├── routes
+│   ├── home
+│   ├── upload
+│   ├── resume
+│   └── auth
+│
+├── lib
+│   ├── puter
+│   ├── pdf2img
+│   └── utils
+│
+└── constants
 ```
+
+---
+
+## ⚙️ Installation
 
 ### Clone Repository
 
@@ -62,66 +84,80 @@ src
 git clone https://github.com/Sathish292004/Resume-Analyzer.git
 ```
 
-### Navigate to Project
+### Install Dependencies
 
 ```bash
-cd Resume-Analyzer
+npm install
 ```
 
-### Configure Database
-
-Update your `application.properties`:
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/resume_analyzer
-spring.datasource.username=root
-spring.datasource.password=your_password
-```
-
-### Run Application
+### Start Development Server
 
 ```bash
-mvn spring-boot:run
+npm run dev
+```
+
+### Build Production Version
+
+```bash
+npm run build
+```
+
+### Start Production Server
+
+```bash
+npm start
 ```
 
 ---
 
-## 🌐 Access Application
+## 🌐 Live Demo
 
 ```text
-http://localhost:8080
+Resume-Analyzer --> [Link](https://resume-analyzer-delta-six.vercel.app/)
+![image](https://i.postimg.cc/CL18dy3T/Screenshot-2026-02-04-201647.png)
 ```
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎯 How It Works
 
-* Spring Boot Development
-* MVC Architecture
-* Database Integration
-* Hibernate & JPA
-* File Handling
-* CRUD Operations
-* Resume Processing Logic
+1. Upload your resume PDF.
+2. Enter company name and job description.
+3. AI scans and evaluates your resume.
+4. Receive ATS score and detailed feedback.
+5. Improve your resume using AI suggestions.
 
 ---
 
-## 🔮 Future Enhancements
+## 📚 Learning Outcomes
 
-* AI-Powered Resume Analysis
-* ATS Score Generation
-* PDF Resume Parsing
-* Skill Gap Analysis
-* Job Recommendation System
-* Resume Download & Export
+* React Router 7
+* TypeScript
+* State Management with Zustand
+* AI Integration
+* Cloud Storage
+* PDF Processing
+* Modern Frontend Development
+* ATS Resume Optimization
+
+---
+
+## 🔮 Future Improvements
+
+* Resume Comparison
+* Job Recommendations
+* Cover Letter Generator
+* Resume Templates
+* Export Feedback Reports
+* Multi-Language Support
 
 ---
 
 ## 👨‍💻 Author
 
-**Sathish Kumar**
+### Sathish Kumar
 
-Java Developer | Spring Boot Developer
+Java & Full Stack Developer
 
 🔗 GitHub: https://github.com/Sathish292004
 
