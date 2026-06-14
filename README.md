@@ -153,7 +153,7 @@ Resume-Analyzer --> [Link](https://resume-analyzer-delta-six.vercel.app/)
 
 ## 👨‍💻 Author
 
-### Sathish Kumar
+### Sathish Kumar B
 
 Java & Full Stack Developer
 
