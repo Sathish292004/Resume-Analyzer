@@ -1,10 +1,5 @@
 
 # 📄 Resume Analyzer
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,maven,mysql,html,css,idea,git,github" />
-</p>
-
 ## 📖 Overview
 
 Resume Analyzer is a web application that helps users evaluate and improve their resumes by analyzing content, skills, and overall resume quality. The system provides insights and suggestions to make resumes more effective and ATS-friendly. Inspired by modern resume analysis tools that evaluate resumes and provide feedback for job seekers.
