@@ -155,8 +155,6 @@ Resume-Analyzer --> [Link](https://resume-analyzer-delta-six.vercel.app/)
 
 ### Sathish Kumar B
 
-Java & Full Stack Developer
-
 🔗 GitHub: https://github.com/Sathish292004
 
 ---
